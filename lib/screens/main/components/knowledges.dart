@@ -17,7 +17,7 @@ class Knowledges extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(vertical: defaultPadding),
           child: Text(
-            "Knowledges",
+            "Knowledge's",
             style: Theme.of(context).textTheme.subtitle2,
           ),
         ),
@@ -25,6 +25,7 @@ class Knowledges extends StatelessWidget {
         KnowledgeText(text: "Android, Java"),
         KnowledgeText(text: "Python"),
         KnowledgeText(text: "GIT Knowledge"),
+        KnowledgeText(text: "Firebase"),
       ],
     );
   }

@@ -15,6 +15,7 @@ class Recommendations extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: defaultPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Text(
             "Recommendations",
